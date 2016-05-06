@@ -97,7 +97,7 @@ extension URI {
         }
 
         if scheme == nil && host == nil && port == nil && path == nil &&
-           query.count == 0 && fragment == nil && userInfo == nil {
+            query.count == 0 && fragment == nil && userInfo == nil {
             throw URIParseError.invalidURI
         }
     }
